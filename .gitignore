@@ -1,0 +1,24 @@
+# Local and generated files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.log
+*.sqlite
+*.sqlite-*
+
+# Installer backups and local overrides
+.backup/
+local/
+home/gitconfig
+**/fish_variables
+
+# Never commit credentials or private keys
+.env
+.env.*
+*.pem
+*.key
+id_*
+credentials*
+secrets*
+
